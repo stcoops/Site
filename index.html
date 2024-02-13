@@ -9,23 +9,27 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
-<body>
-  <div class="Sidebar">
-    <a>Menu</a>
-    <a href="#">Chapter 1</a>
-    <a href="#">Chapter 2</a>
-    <a href="#">Chapter 3</a>
-    <a href="#">Chapter 4</a>
-  </div>
-  <div class = "Main">
-    <div class="Ribbon">
+<body class="dark">
+  <div id = "Main">
+    <div id="Ribbon">
+        <a id="ToggleMenu", onclick="OpenMenu()">=</a>
         <a href="/Home">Home</a>
         <a href="/page1">Page 1</a>
         <a href="/page2">Page 2</a>
         <a href="/page3">Page 3</a>
-        <a href="/page4">Page 4</a>
+        <a id="DarkButton", onclick="ToggleDark()">Light Mode</a>
     </div>
-  <h1>Hello, world!</h1>
+    <body class="dark">
+      <div id="Sidebar">
+        <a>Menu</a>
+        <a href="#">Chapter 1</a>
+        <a href="#">Chapter 2</a>
+        <a href="#">Chapter 3</a>
+        <a href="#">Chapter 4</a>
+      </div>
+  <div id="content">
+  <h1>Welcome</h1>
+  </div>
 </div>
 </body>
 </html>

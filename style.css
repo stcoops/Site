@@ -1,37 +1,51 @@
 body {
-    /* padding:5%; */
+
     font-size: small;
     background-color: white;
     color:black
 }
 
-.Sidebar {
-    position:fixed;
-    width:10%;
-    margin-left: 0%;
+.dark {
+    background-color: black;
+    color: white;
 }
 
-.Sidebar a {
+
+
+#Sidebar a {
     padding-top: 10%;
     display: block;
 }
 
-.Main {
-    
-    margin-left: 10%;
+#Sidebar {
+    background-color: grey;
+    position:fixed;
+    width:10%;
+    margin-left: 0%;
+    font-size: larger;
+    display: none;
 }
 
-.Ribbon {
-    background-color: black;
+#Main {
+    margin-left: 0%;
+}
+
+#content {
+    text-align: center;
+}
+
+#Ribbon {
+    font-size: larger;
+    background-color: gray;
     overflow: hidden;
 }
 
-.Ribbon a {
+#Ribbon a {
     color:white;
     padding: 5% ;
 }
 
-.Ribbon a:hover {
+#Ribbon a:hover {
     color: blue;
     ;
 }
