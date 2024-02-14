@@ -13,7 +13,9 @@ function CloseMenu() {
     document.getElementById("Sidebar").style.display = "none";
     //document.getElementById("Main").style.marginLeft = "0%";
     //document.getElementById("Sidebar").style.marginLeft = "0%";
+    document.getElementById("ToggleMenu").innerHTML = "=";
     document.getElementById("ToggleMenu").onclick = OpenMenu;
+
 }
 
 function OpenMenu() {

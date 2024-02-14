@@ -11,11 +11,12 @@ body {
 }
 
 
-
-#Sidebar a {
-    padding-top: 10%;
-    display: block;
+#ToggleMenu {
+    display: inline-block;
+    padding-left: 5%;
+    color: blueviolet;
 }
+
 
 #Sidebar {
     background-color: grey;
@@ -25,6 +26,13 @@ body {
     font-size: larger;
     display: none;
 }
+
+#Sidebar a {
+    padding-top: 30%;
+    display: block;
+}
+
+
 
 #Main {
     margin-left: 0%;
@@ -42,7 +50,8 @@ body {
 
 #Ribbon a {
     color:white;
-    padding: 5% ;
+    padding: 1% ;
+    padding-right: 10%;
 }
 
 #Ribbon a:hover {
